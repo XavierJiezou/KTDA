@@ -5,9 +5,9 @@
 Knowledge Transfer and Domain Adaptation for Fine-Grained Remote Sensing Image Segmentation
 
 [![arXiv Paper](https://img.shields.io/badge/arXiv-2411.13127-B31B1B)](https://arxiv.org/abs/2411.13127)
-[![Project Page](https://img.shields.io/badge/Project%20Page-Cloud--Adapter-blue)](https://xavierjiezou.github.io/Cloud-Adapter/)
-[![HugginngFace Models](https://img.shields.io/badge/🤗HugginngFace-Models-orange)](https://huggingface.co/XavierJiezou/cloud-adapter-models)
-[![HugginngFace Datasets](https://img.shields.io/badge/🤗HugginngFace-Datasets-orange)](https://huggingface.co/datasets/XavierJiezou/cloud-adapter-datasets)
+[![Project Page](https://img.shields.io/badge/Project%20Page-KTDA-blue)](https://xavierjiezou.github.io/KTDA/)
+[![HugginngFace Models](https://img.shields.io/badge/🤗HugginngFace-Models-orange)](https://huggingface.co/XavierJiezou/KTDA-models)
+[![HugginngFace Datasets](https://img.shields.io/badge/🤗HugginngFace-Datasets-orange)](https://huggingface.co/datasets/XavierJiezou/KTDA-datasets)
 <!--[![Overleaf](https://img.shields.io/badge/Overleaf-Open-green?logo=Overleaf&style=flat)](https://www.overleaf.com/project/6695fd4634d7fee5d0b838e5)-->
 
 <!--Love the project? Please consider [donating](https://paypal.me/xavierjiezou?country.x=C2&locale.x=zh_XC) to help it improve!-->
@@ -24,8 +24,8 @@ Knowledge Transfer and Domain Adaptation for Fine-Grained Remote Sensing Image S
 1. Clone the Repository  
 
 ```bash  
-git clone https://github.com/XavierJiezou/Cloud-Adapter.git
-cd Cloud-Adapter  
+git clone https://github.com/XavierJiezou/KTDA.git
+cd KTDA  
 ```  
 
 2. Install Dependencies  
@@ -42,16 +42,16 @@ pip install -r requirements.txt
 
 - Option 2: Use Pre-configured Environment  
 
-We provide a pre-configured environment (`envs`) hosted on Hugging Face. You can download it directly from [Hugging Face](https://huggingface.co/XavierJiezou/cloud-adapter-models). Follow the instructions on the page to set up and activate the environment.  
+We provide a pre-configured environment (`envs`) hosted on Hugging Face. You can download it directly from [Hugging Face](https://huggingface.co/XavierJiezou/KTDA-models). Follow the instructions on the page to set up and activate the environment.  
 
 ## Prepare Data  
 
-We have open-sourced all datasets used in the paper, which are hosted on [Hugging Face Datasets](https://huggingface.co/datasets/XavierJiezou/cloud-adapter-datasets). Please follow the instructions on the dataset page to download the data.  
+We have open-sourced all datasets used in the paper, which are hosted on [Hugging Face Datasets](https://huggingface.co/datasets/XavierJiezou/KTDA-datasets). Please follow the instructions on the dataset page to download the data.  
 
 After downloading, organize the dataset as follows:  
 
 ```  
-Cloud-Adapter
+KTDA
 ├── ...
 ├── data
 │   ├── cloudsen12_high_l1c
@@ -174,7 +174,7 @@ Make sure to provide the appropriate paths for the backbone and the adapter/head
 
 ## Evaluation
 
-All model weights used in the paper have been open-sourced and are available on [Hugging Face Models](https://huggingface.co/XavierJiezou/cloud-adapter-models).
+All model weights used in the paper have been open-sourced and are available on [Hugging Face Models](https://huggingface.co/XavierJiezou/KTDA-models).
 
 Use the following command to evaluate the trained model:  
 
@@ -199,7 +199,7 @@ If you would like to reproduce the other models and comparisons presented in the
 
 ## Visualization
 
-We have published the pre-trained model's visualization results of various datasets on Hugging Face at [Hugging Face](https://huggingface.co/XavierJiezou/cloud-adapter-models/tree/vis). If you prefer not to run the code, you can directly visit the repository to download the visualization results. 
+We have published the pre-trained model's visualization results of various datasets on Hugging Face at [Hugging Face](https://huggingface.co/XavierJiezou/KTDA-models/tree/vis). If you prefer not to run the code, you can directly visit the repository to download the visualization results. 
 
 ## Gradio Demo  
 
@@ -221,7 +221,7 @@ This will start the Gradio interface, where you can upload remote sensing images
 
 ## Troubleshooting  
 
-- If you encounter a `file not found` error, it is likely that the model weights have not been downloaded. Please visit [Hugging Face Models](https://huggingface.co/XavierJiezou/cloud-adapter-models) to download the pretrained model weights.
+- If you encounter a `file not found` error, it is likely that the model weights have not been downloaded. Please visit [Hugging Face Models](https://huggingface.co/XavierJiezou/KTDA-models) to download the pretrained model weights.
 
 - **GPU Requirements**: To run the model on a GPU, you will need at least **16GB** of GPU memory.  
 
@@ -236,7 +236,7 @@ export CUDA_VISIBLE_DEVICES=-1
 If you use our code or models in your research, please cite with:
 
 ```latex
-@misc{cloud-adapter,
+@misc{KTDA,
       title={Adapting Vision Foundation Models for Robust Cloud Segmentation in Remote Sensing Images}, 
       author={Xuechao Zou and Shun Zhang and Kai Li and Shiying Wang and Junliang Xing and Lei Jin and Congyan Lang and Pin Tao},
       year={2024},
