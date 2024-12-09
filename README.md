@@ -41,7 +41,15 @@ pip install -r requirements.txt
 
 - Option 2: Use Pre-configured Environment  
 
-We provide a pre-configured environment (`envs`) hosted on Hugging Face. You can download it directly from [Hugging Face](https://huggingface.co/XavierJiezou/ktda-models/blob/main/env.tar.gz). Follow the instructions on the page to set up and activate the environment. 
+We provide a pre-configured environment (`env.tar.gz`) hosted on Hugging Face. You can download it directly from [Hugging Face](https://huggingface.co/XavierJiezou/ktda-models/blob/main/env.tar.gz). Follow the instructions on the page to set up and activate the environment. 
+
+Once download env.tar.gz, you can extract it using the following command:  
+
+```bash
+tar -xzf env name.tar.gz -C envs
+source envs/bin/activate
+conda-unpack
+```
 
 ## Prepare Data  
 
