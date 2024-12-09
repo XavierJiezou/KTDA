@@ -1,6 +1,6 @@
 # Evaluation on the Cloud Dataset
 
-## Class-wise Result of our KTDA
+## Class-wise Result
 | Class         | IoU   | Acc   | Dice  | Fscore | Precision | Recall |
 |--------------|-------|-------|-------|--------|-----------|--------|
 | Clear        | 81.68 | 87.59 | 89.92 | 89.92  | 92.38     | 87.59  |
@@ -8,7 +8,7 @@
 | Thin Cloud   | 44.61 | 65.74 | 61.7  | 61.7   | 58.12     | 65.74  |
 | Cloud        | 79.68 | 90.83 | 88.69 | 88.69  | 86.65     | 90.83  |
 
-## Comparision Result of our KTDA and Existing Methods
+## Comparision Result
 
 | Method            | mIoU | OA | F1 |
 |-------------------|----------------|--------------|--------------|
