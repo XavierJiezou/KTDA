@@ -131,7 +131,7 @@ All model weights used in the paper have been open-sourced and are available on 
 Use the following command to evaluate the trained model:  
 
 ```bash  
-CUDA_VISIBLE_DEVICES=0 python tools/test.py configs/ktda/ktda_grass.py path/to/checkpoint.pth  
+python tools/test.py configs/ktda/ktda_grass.py path/to/checkpoint.pth  
 ```  
 
 ## Citation
