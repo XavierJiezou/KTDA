@@ -1,7 +1,5 @@
 <div align="center">
 
-![logo](https://github.com/user-attachments/assets/f9351412-d54a-4ac6-9344-d412fe3b3581)
-
 # KTDA
 
 Knowledge Transfer and Domain Adaptation for Fine-Grained Remote Sensing Image Segmentation
