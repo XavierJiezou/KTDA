@@ -56,7 +56,7 @@ Cloud-Adapter
 │   │   ├── img_dir
 │   │   │   ├── train
 │   │   │   ├── val
-│   ├── l8_biome
+│   ├── cloud (l8_biome)
 │   │   ├── ann_dir
 │   │   │   ├── train
 │   │   │   ├── val
