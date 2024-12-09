@@ -91,49 +91,66 @@
   }
 
   .legend-container {
-            margin: 20px 0;
-            padding: 15px;
-            border-radius: 8px;
-            background-color: #f5f5f5;
-        }
+    margin: 20px auto;
+    /* 改为 auto 使容器本身水平居中 */
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 使内容水平居中 */
+    justify-content: center;
+    /* 使内容垂直居中 */
+    max-width: 800px;
+    /* 添加最大宽度以确保在大屏幕上不会过宽 */
+  }
 
-        .legend-title {
-            font-weight: bold;
-            margin-bottom: 10px;
-        }
+  .legend-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    /* 确保标题文字居中 */
+  }
 
-        .legend-items {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-        }
+  .legend-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    /* 使图例项目居中对齐 */
+  }
 
-        .legend-item {
-            display: flex;
-            align-items: center;
-            margin-right: 15px;
-        }
+  .legend-item {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+  }
 
-        .legend-color {
-            width: 20px;
-            height: 20px;
-            margin-right: 8px;
-            border-radius: 4px;
-        }
+  .legend-color {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    border-radius: 4px;
+  }
 
 
   .grass-low {
     background-color: rgb(185, 101, 71);
   }
+
   .grass-middle-low {
     background-color: rgb(248, 202, 155);
   }
+
   .grass-middle {
     background-color: rgb(211, 232, 158);
   }
+
   .grass-middle-high {
     background-color: rgb(138, 191, 104);
   }
+
   .grass-high {
     background-color: rgb(92, 144, 77);
   }
@@ -576,50 +593,50 @@
             <div class="legend-container">
               <div class="legend-title">Grass Dataset Legend</div>
               <div class="legend-items">
-                  <div class="legend-item">
-                      <div class="legend-color grass-low"></div>
-                      <span>Low</span>
-                  </div>
-                  <div class="legend-item">
-                      <div class="legend-color grass-middle-low"></div>
-                      <span>Middle Low</span>
-                  </div>
-                  <div class="legend-item">
-                      <div class="legend-color grass-middle"></div>
-                      <span>Middle</span>
-                  </div>
-                  <div class="legend-item">
-                      <div class="legend-color grass-middle-high"></div>
-                      <span>Middle High</span>
-                  </div>
-                  <div class="legend-item">
-                      <div class="legend-color grass-high"></div>
-                      <span>High</span>
-                  </div>
+                <div class="legend-item">
+                  <div class="legend-color grass-low"></div>
+                  <span>Low</span>
+                </div>
+                <div class="legend-item">
+                  <div class="legend-color grass-middle-low"></div>
+                  <span>Middle Low</span>
+                </div>
+                <div class="legend-item">
+                  <div class="legend-color grass-middle"></div>
+                  <span>Middle</span>
+                </div>
+                <div class="legend-item">
+                  <div class="legend-color grass-middle-high"></div>
+                  <span>Middle High</span>
+                </div>
+                <div class="legend-item">
+                  <div class="legend-color grass-high"></div>
+                  <span>High</span>
+                </div>
               </div>
-          </div>
-      
-          <div class="legend-container">
+            </div>
+
+            <div class="legend-container">
               <div class="legend-title">Cloud Dataset Legend</div>
               <div class="legend-items">
-                  <div class="legend-item">
-                      <div class="legend-color cloud-clear"></div>
-                      <span>Clear Sky</span>
-                  </div>
-                  <div class="legend-item">
-                      <div class="legend-color cloud-thick"></div>
-                      <span>Thick Cloud</span>
-                  </div>
-                  <div class="legend-item">
-                      <div class="legend-color cloud-thin"></div>
-                      <span>Thin Cloud</span>
-                  </div>
-                  <div class="legend-item">
-                      <div class="legend-color cloud-shadow"></div>
-                      <span>Cloud Shadow</span>
-                  </div>
+                <div class="legend-item">
+                  <div class="legend-color cloud-clear"></div>
+                  <span>Clear Sky</span>
+                </div>
+                <div class="legend-item">
+                  <div class="legend-color cloud-thick"></div>
+                  <span>Thick Cloud</span>
+                </div>
+                <div class="legend-item">
+                  <div class="legend-color cloud-thin"></div>
+                  <span>Thin Cloud</span>
+                </div>
+                <div class="legend-item">
+                  <div class="legend-color cloud-shadow"></div>
+                  <span>Cloud Shadow</span>
+                </div>
               </div>
-          </div>
+            </div>
           </div>
         </div>
       </div>
@@ -636,7 +653,8 @@
         <div class="columns is-centered has-text-centered">
 
           <table border="1" cellpadding="5" cellspacing="0" style="text-align: center;width: 100%;" class="tg">
-            <caption class="table-caption">The performance comparison of different methods on our fine-grained grass segmentation dataset.
+            <caption class="table-caption">The performance comparison of different methods on our fine-grained grass
+              segmentation dataset.
             </caption>
             <thead>
               <tr>
@@ -700,7 +718,8 @@
 
 
           <table border="1" cellpadding="5" cellspacing="0" style="text-align: center;width: 100%;" class="tg">
-            <caption class="table-caption">The performance comparison of different methods on the fine-grained cloud segmentation dataset.
+            <caption class="table-caption">The performance comparison of different methods on the fine-grained cloud
+              segmentation dataset.
             </caption>
             <thead>
               <tr>
