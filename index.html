@@ -90,6 +90,22 @@
     border: 1px solid #000;
   }
 
+  .low {
+    background-color: rgb(185, 101, 71);
+  }
+  .middle-low {
+    background-color: rgb(248, 202, 155);
+  }
+  .middle {
+    background-color: rgb(211, 232, 158);
+  }
+  .middle-high {
+    background-color: rgb(138, 191, 104);
+  }
+  .high {
+    background-color: rgb(92, 144, 77);
+  }
+
   .clear-sky {
     background-color: rgb(79, 253, 199);
   }
@@ -509,6 +525,68 @@
   <!-- End Method -->
 
   <!--End BibTex citation -->
+
+  <section class="hero is-light is-small">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths">
+            <h2 class="title is-3">Results</h2>
+            <h3 class="title is-4">Visualization on the Six Datasets: HRC, GF1, GF2, L1C, L2A, and L8B.</h3>
+            <div id="results-carousel" class="carousel results-carousel">
+              <div class="item ">
+                <img src="static/images/grass.svg" alt="MY ALT TEXT" />
+              </div>
+              <div class="item ">
+                <img src="static/images/cloud.svg" alt="MY ALT TEXT" />
+              </div>
+            </div>
+            <div class="title is-5 legend is-centered">
+              <div class="legend-item is-centered has-text-centered">
+                <div class="legend-color low"></div>
+                <span>Low</span>
+              </div>
+              <div class="legend-item is-centered has-text-centered">
+                <div class="legend-color middle-low"></div>
+                <span>Middle Low</span>
+              </div>
+              <div class="legend-item is-centered has-text-centered">
+                <div class="legend-color middle"></div>
+                <span>Middle</span>
+              </div>
+              <div class="legend-item is-centered has-text-centered">
+                <div class="legend-color middle-high"></div>
+                <span>Middle High</span>
+              </div>
+              <div class="legend-item is-centered has-text-centered">
+                <div class="legend-color High"></div>
+                <span>High</span>
+              </div>
+
+
+              <div class="legend-item is-centered has-text-centered ">
+                <div class="legend-color clear-sky"></div>
+                <span>Clear Sky</span>
+              </div>
+              <div class="legend-item is-centered has-text-centered">
+                <div class="legend-color thick-cloud"></div>
+                <span>Thick Cloud</span>
+              </div>
+              <div class="legend-item is-centered has-text-centered">
+                <div class="legend-color thin-cloud"></div>
+                <span>Thin Cloud</span>
+              </div>
+              <div class="legend-item is-centered has-text-centered">
+                <div class="legend-color cloud-shadow"></div>
+                <span>Cloud Shadow</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
 
 
   <section class="hero is-light is-small">
