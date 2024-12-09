@@ -1,4 +1,4 @@
-# Cloud
+# Evaluation on the Cloud Dataset
 
 ## Class-wise Result of our KTDA on the Cloud Dataset
 | Class         | IoU   | Acc   | Dice  | Fscore | Precision | Recall |
