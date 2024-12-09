@@ -132,7 +132,9 @@ Use the following command to evaluate the trained model:
 
 ```bash  
 python tools/test.py configs/ktda/ktda_grass.py path/to/checkpoint.pth  
-```  
+```
+
+Alternatively, you can find the evaluation results in the [eval_result](eval_result) folder within this repository.
 
 ## Citation
 
