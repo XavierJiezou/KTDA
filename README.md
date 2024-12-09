@@ -46,7 +46,7 @@ We provide a pre-configured environment (`env.tar.gz`) hosted on Hugging Face. Y
 Once download env.tar.gz, you can extract it using the following command:  
 
 ```bash
-tar -xzf env name.tar.gz -C envs
+tar -xzf env.tar.gz -C envs
 source envs/bin/activate
 conda-unpack
 ```
