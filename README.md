@@ -71,7 +71,7 @@ KTDA
 
 ### Step 1: Modify the Configuration File
 
-After downloading the backbone network weights from [Hugging Face](https://huggingface.co/XavierJiezou/ktda-models), make sure to correctly specify the path to the configuration file within your config settings.
+After downloading the vision transformer models from [Hugging Face](https://huggingface.co/XavierJiezou/ktda-models), make sure to correctly specify the path to the configuration file within your config settings.
 
 For example: 
 
@@ -81,7 +81,7 @@ model = dict(
     backbone=dict(
         init_cfg=dict(
             type="Pretrained",
-            checkpoint="checkpoints/dinov2-base.pth", # you can set weight path here
+            checkpoint="checkpoints/dinov2-base.pth", # you can set vision transformer models path here
         ),
     ),
    
