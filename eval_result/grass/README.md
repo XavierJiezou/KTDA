@@ -82,7 +82,7 @@
 | middle-high| 23.44 | 35.24 | 37.98 | 37.98  | 41.18     | 35.24  |
 | high       | 78.58 | 88.46 | 88.01 | 88.01  | 87.55     | 88.46  |
 
-## Comparision Result of our KTDA and Existing Methods
+## Comparision Result
 
 | Method            | mIoU | OA | F1 |
 |-------------------|----------------|--------------|--------------|
