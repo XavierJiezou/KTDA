@@ -375,74 +375,78 @@
   <section class="hero is-light is-small">
     <div class="hero-body">
       <div class="container is-max-desktop">
+        <h3 class="title is-4 is-centered has-text-centered">Quantitative Comparison (mIoU, %, ↑) with the Existing
+          Methods.</h3>
+        <div id="radar" style="min-height: 500px;"></div>
+        <br>
+        <br>
         <div class="columns is-centered has-text-centered">
-          <div class="column is-four-fifths">
-            <h2 class="title is-3">Results</h2>
-            <table border="1" cellpadding="5" cellspacing="0" style="text-align: center;">
-              <caption>The performance comparison of different methods on our fine-grained grass segmentation dataset.
-              </caption>
-              <thead>
-                <tr>
-                  <th>Method</th>
-                  <th>mIoU ↑</th>
-                  <th>OA ↑</th>
-                  <th>F1 ↑</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>FCN</td>
-                  <td>47.47</td>
-                  <td>67.85</td>
-                  <td>61.99</td>
-                </tr>
-                <tr>
-                  <td>PSPNet</td>
-                  <td>47.95</td>
-                  <td>69.12</td>
-                  <td>62.55</td>
-                </tr>
-                <tr>
-                  <td>DeepLabV3+</td>
-                  <td>47.95</td>
-                  <td>68.97</td>
-                  <td>62.50</td>
-                </tr>
-                <tr>
-                  <td>UNet</td>
-                  <td>48.17</td>
-                  <td>69.77</td>
-                  <td>62.34</td>
-                </tr>
-                <tr>
-                  <td>SegFormer</td>
-                  <td>48.29</td>
-                  <td>68.93</td>
-                  <td>62.82</td>
-                </tr>
-                <tr>
-                  <td>Mask2Former</td>
-                  <td>44.93</td>
-                  <td>65.90</td>
-                  <td>58.91</td>
-                </tr>
-                <tr>
-                  <td>DINOv2</td>
-                  <td>47.57</td>
-                  <td>71.54</td>
-                  <td>61.70</td>
-                </tr>
-                <tr>
-                  <td><strong>Ours</strong></td>
-                  <td><strong>50.86</strong></td>
-                  <td><strong>74.26</strong></td>
-                  <td><strong>65.01</strong></td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
+          <table border="1" cellpadding="5" cellspacing="0" style="text-align: center;">
+            <caption>The performance comparison of different methods on our fine-grained grass segmentation dataset.
+            </caption>
+            <thead>
+              <tr>
+                <th>Method</th>
+                <th>mIoU ↑</th>
+                <th>OA ↑</th>
+                <th>F1 ↑</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>FCN</td>
+                <td>47.47</td>
+                <td>67.85</td>
+                <td>61.99</td>
+              </tr>
+              <tr>
+                <td>PSPNet</td>
+                <td>47.95</td>
+                <td>69.12</td>
+                <td>62.55</td>
+              </tr>
+              <tr>
+                <td>DeepLabV3+</td>
+                <td>47.95</td>
+                <td>68.97</td>
+                <td>62.50</td>
+              </tr>
+              <tr>
+                <td>UNet</td>
+                <td>48.17</td>
+                <td>69.77</td>
+                <td>62.34</td>
+              </tr>
+              <tr>
+                <td>SegFormer</td>
+                <td>48.29</td>
+                <td>68.93</td>
+                <td>62.82</td>
+              </tr>
+              <tr>
+                <td>Mask2Former</td>
+                <td>44.93</td>
+                <td>65.90</td>
+                <td>58.91</td>
+              </tr>
+              <tr>
+                <td>DINOv2</td>
+                <td>47.57</td>
+                <td>71.54</td>
+                <td>61.70</td>
+              </tr>
+              <tr>
+                <td><strong>KTDA</strong></td>
+                <td><strong>50.86</strong></td>
+                <td><strong>74.26</strong></td>
+                <td><strong>65.01</strong></td>
+              </tr>
+            </tbody>
+          </table>
+
         </div>
       </div>
+    </div>
     </div>
     </div>
   </section>
@@ -450,79 +454,83 @@
   <section class="hero is-light is-small">
     <div class="hero-body">
       <div class="container is-max-desktop">
+        <h3 class="title is-4 is-centered has-text-centered">Quantitative Comparison (mIoU, %, ↑) with the Existing
+          Methods.</h3>
+        <div id="radar" style="min-height: 500px;"></div>
+        <br>
+        <br>
         <div class="columns is-centered has-text-centered">
-          <div class="column is-four-fifths">
-            <h2 class="title is-3">Results</h2>
-            <table border="1" cellpadding="5" cellspacing="0" style="text-align: center;">
-              <caption>The performance comparison of different methods on the fine-grained cloud segmentation dataset.
-              </caption>
-              <thead>
-                <tr>
-                  <th>Method</th>
-                  <th>mIoU ↑</th>
-                  <th>OA ↑</th>
-                  <th>F1 ↑</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>MCDNet</td>
-                  <td>33.85</td>
-                  <td>69.75</td>
-                  <td>42.76</td>
-                </tr>
-                <tr>
-                  <td>SCNN</td>
-                  <td>32.38</td>
-                  <td>71.22</td>
-                  <td>52.41</td>
-                </tr>
-                <tr>
-                  <td>CDNetv1</td>
-                  <td>34.58</td>
-                  <td>68.16</td>
-                  <td>45.80</td>
-                </tr>
-                <tr>
-                  <td>KappaMask</td>
-                  <td>42.12</td>
-                  <td>76.63</td>
-                  <td>68.47</td>
-                </tr>
-                <tr>
-                  <td>UNetMobv2</td>
-                  <td>47.76</td>
-                  <td>82.00</td>
-                  <td>56.91</td>
-                </tr>
-                <tr>
-                  <td>CDNetv2</td>
-                  <td>43.63</td>
-                  <td>78.56</td>
-                  <td>70.33</td>
-                </tr>
-                <tr>
-                  <td>HRCloudNet</td>
-                  <td>43.51</td>
-                  <td>77.04</td>
-                  <td>71.36</td>
-                </tr>
-                <tr>
-                  <td><strong>Ours</strong></td>
-                  <td><strong>51.49</strong></td>
-                  <td><strong>83.55</strong></td>
-                  <td><strong>60.08</strong></td>
-                </tr>
-              </tbody>
-            </table>
+          <table border="1" cellpadding="5" cellspacing="0" style="text-align: center;">
+            <caption>The performance comparison of different methods on the fine-grained cloud segmentation dataset.
+            </caption>
+            <thead>
+              <tr>
+                <th>Method</th>
+                <th>mIoU ↑</th>
+                <th>OA ↑</th>
+                <th>F1 ↑</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>MCDNet</td>
+                <td>33.85</td>
+                <td>69.75</td>
+                <td>42.76</td>
+              </tr>
+              <tr>
+                <td>SCNN</td>
+                <td>32.38</td>
+                <td>71.22</td>
+                <td>52.41</td>
+              </tr>
+              <tr>
+                <td>CDNetv1</td>
+                <td>34.58</td>
+                <td>68.16</td>
+                <td>45.80</td>
+              </tr>
+              <tr>
+                <td>KappaMask</td>
+                <td>42.12</td>
+                <td>76.63</td>
+                <td>68.47</td>
+              </tr>
+              <tr>
+                <td>UNetMobv2</td>
+                <td>47.76</td>
+                <td>82.00</td>
+                <td>56.91</td>
+              </tr>
+              <tr>
+                <td>CDNetv2</td>
+                <td>43.63</td>
+                <td>78.56</td>
+                <td>70.33</td>
+              </tr>
+              <tr>
+                <td>HRCloudNet</td>
+                <td>43.51</td>
+                <td>77.04</td>
+                <td>71.36</td>
+              </tr>
+              <tr>
+                <td><strong>KTDA</strong></td>
+                <td><strong>51.49</strong></td>
+                <td><strong>83.55</strong></td>
+                <td><strong>60.08</strong></td>
+              </tr>
+            </tbody>
+          </table>
 
-            </table>
-          </div>
         </div>
       </div>
     </div>
     </div>
+    </div>
   </section>
+
+
 
 
 
