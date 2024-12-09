@@ -6,7 +6,7 @@
 
 Knowledge Transfer and Domain Adaptation for Fine-Grained Remote Sensing Image Segmentation
 
-[![Project Page](https://img.shields.io/badge/Project%20Page-Cloud--Adapter-blue)](https://xavierjiezou.github.io/KTDA/)
+[![Project Page](https://img.shields.io/badge/Project%20Page-KTDA-blue)](https://xavierjiezou.github.io/KTDA/)
 [![HugginngFace Models](https://img.shields.io/badge/🤗HugginngFace-Models-orange)](https://huggingface.co/XavierJiezou/ktda-models)
 [![HugginngFace Datasets](https://img.shields.io/badge/🤗HugginngFace-Datasets-orange)](https://huggingface.co/datasets/XavierJiezou/ktda-datasets)
 <!--[![Overleaf](https://img.shields.io/badge/Overleaf-Open-green?logo=Overleaf&style=flat)](https://www.overleaf.com/project/6695fd4634d7fee5d0b838e5)-->
@@ -127,7 +127,7 @@ All model weights used in the paper have been open-sourced and are available on 
 Use the following command to evaluate the trained model:  
 
 ```bash  
-CUDA_VISIBLE_DEVICES=0 python tools/test.pyconfigs/ktda/ktda_grass.py path/to/checkpoint.pth  
+CUDA_VISIBLE_DEVICES=0 python tools/test.py configs/ktda/ktda_grass.py path/to/checkpoint.pth  
 ```  
 
 ## Citation
