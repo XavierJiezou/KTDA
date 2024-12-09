@@ -90,6 +90,38 @@
     border: 1px solid #000;
   }
 
+  .legend-container {
+            margin: 20px 0;
+            padding: 15px;
+            border-radius: 8px;
+            background-color: #f5f5f5;
+        }
+
+        .legend-title {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .legend-items {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin-right: 15px;
+        }
+
+        .legend-color {
+            width: 20px;
+            height: 20px;
+            margin-right: 8px;
+            border-radius: 4px;
+        }
+
+
   .low {
     background-color: rgb(185, 101, 71);
   }
@@ -541,49 +573,53 @@
                 <img src="static/images/cloud.svg" alt="MY ALT TEXT" />
               </div>
             </div>
-            <div class="title is-5 legend is-centered">
-              <h5 style="font-weight: bold;margin-bottom: 10px;color: #333;">Grass Dataset Legend</h5>
-              <br>
-              <div class="legend-item is-centered has-text-centered">
-                <div class="legend-color low"></div>
-                <span>Low</span>
+            <div class="legend-container">
+              <div class="legend-title">Grass Dataset Legend</div>
+              <div class="legend-items">
+                  <div class="legend-item">
+                      <div class="legend-color grass-low"></div>
+                      <span>Low</span>
+                  </div>
+                  <div class="legend-item">
+                      <div class="legend-color grass-middle-low"></div>
+                      <span>Middle Low</span>
+                  </div>
+                  <div class="legend-item">
+                      <div class="legend-color grass-middle"></div>
+                      <span>Middle</span>
+                  </div>
+                  <div class="legend-item">
+                      <div class="legend-color grass-middle-high"></div>
+                      <span>Middle High</span>
+                  </div>
+                  <div class="legend-item">
+                      <div class="legend-color grass-high"></div>
+                      <span>High</span>
+                  </div>
               </div>
-              <div class="legend-item is-centered has-text-centered">
-                <div class="legend-color middle-low"></div>
-                <span>Middle Low</span>
+          </div>
+      
+          <div class="legend-container">
+              <div class="legend-title">Cloud Dataset Legend</div>
+              <div class="legend-items">
+                  <div class="legend-item">
+                      <div class="legend-color cloud-clear"></div>
+                      <span>Clear Sky</span>
+                  </div>
+                  <div class="legend-item">
+                      <div class="legend-color cloud-thick"></div>
+                      <span>Thick Cloud</span>
+                  </div>
+                  <div class="legend-item">
+                      <div class="legend-color cloud-thin"></div>
+                      <span>Thin Cloud</span>
+                  </div>
+                  <div class="legend-item">
+                      <div class="legend-color cloud-shadow"></div>
+                      <span>Cloud Shadow</span>
+                  </div>
               </div>
-              <div class="legend-item is-centered has-text-centered">
-                <div class="legend-color middle"></div>
-                <span>Middle</span>
-              </div>
-              <div class="legend-item is-centered has-text-centered">
-                <div class="legend-color middle-high"></div>
-                <span>Middle High</span>
-              </div>
-              <div class="legend-item is-centered has-text-centered">
-                <div class="legend-color high"></div>
-                <span>High</span>
-              </div>
-
-              <h5 style="font-weight: bold;margin-bottom: 10px;color: #333;">Cloud Dataset Legend</h5>
-              <br>
-              <div class="legend-item is-centered has-text-centered ">
-                <div class="legend-color clear-sky"></div>
-                <span>Clear Sky</span>
-              </div>
-              <div class="legend-item is-centered has-text-centered">
-                <div class="legend-color thick-cloud"></div>
-                <span>Thick Cloud</span>
-              </div>
-              <div class="legend-item is-centered has-text-centered">
-                <div class="legend-color thin-cloud"></div>
-                <span>Thin Cloud</span>
-              </div>
-              <div class="legend-item is-centered has-text-centered">
-                <div class="legend-color cloud-shadow"></div>
-                <span>Cloud Shadow</span>
-              </div>
-            </div>
+          </div>
           </div>
         </div>
       </div>
