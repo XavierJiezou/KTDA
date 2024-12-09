@@ -76,7 +76,7 @@ After downloading the vision transformer models from [Hugging Face](https://hugg
 For example: 
 
 ```python
-# configs/_base_/models/cloud_adapter_dinov2.py
+# configs/_base_/models/ktda.py
 model = dict(
     backbone=dict(
         init_cfg=dict(
@@ -95,13 +95,13 @@ Update the `configs` directory with your training configuration, or use one of t
 Use the following command to begin training on grass dataset:  
 
 ```bash  
-CUDA_VISIBLE_DEVICES=0 python tools/train.py configs/ktda/ktda_grass.py
+python tools/train.py configs/ktda/ktda_grass.py
 ```  
 
 and you can also train on cloud dataset:
 
 ```bash  
-CUDA_VISIBLE_DEVICES=0 python tools/train.py configs/ktda/ktda_cloud.py
+python tools/train.py configs/ktda/ktda_cloud.py
 ``` 
 
 ### Step 3: Resume or Fine-tune  
