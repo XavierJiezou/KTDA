@@ -4,7 +4,7 @@
 
 - KTDA (Ours)
 
-| Class         | IoU   | Acc   | Dice  | Fscore | Precision | Recall |
+| Class         | IoU   | Acc   | Dice  | F1 | Precision | Recall |
 |--------------|-------|-------|-------|--------|-----------|--------|
 | Clear        | 81.68 | 87.59 | 89.92 | 89.92  | 92.38     | 87.59  |
 | Cloud Shadow | 0.0   | 0.0   | 0.01  | 0.01   | 66.67     | 0.0    |
@@ -13,7 +13,7 @@
 
 - CDNetv1
 
-| Class | IoU    | Acc    | Dice   | Fscore | Precision | Recall  |
+| Class | IoU    | Acc    | Dice   | F1 | Precision | Recall  |
 |-------|--------|--------|--------|--------|-----------|---------|
 | Clear | 60.69 | 88.19 | 75.54 | 75.54 | 66.06 | 88.19 |
 | Cloud Shadow | 1.21 | 1.22 | 2.40 | 2.40 | 86.22 | 1.22 |
@@ -22,7 +22,7 @@
 
 - CDNetv2
 
-| Class | IoU    | Acc    | Dice   | Fscore | Precision | Recall  |
+| Class | IoU    | Acc    | Dice   | F1 | Precision | Recall  |
 |-------|--------|--------|--------|--------|-----------|---------|
 | Clear | 73.81 | 90.18 | 84.93 | 84.93 | 80.26 | 90.18 |
 | Cloud Shadow | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 |
@@ -31,7 +31,7 @@
 
 - HRCloudNet
 
-| Class | IoU    | Acc    | Dice   | Fscore | Precision | Recall  |
+| Class | IoU    | Acc    | Dice   | F1 | Precision | Recall  |
 |-------|--------|--------|--------|--------|-----------|---------|
 | Clear | 72.41 | 85.50 | 83.99 | 83.99 | 82.54 | 85.50 |
 | Cloud Shadow | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 |
@@ -40,7 +40,7 @@
 
 - KappaMask
 
-| Class | IoU    | Acc    | Dice   | Fscore | Precision | Recall  |
+| Class | IoU    | Acc    | Dice   | F1 | Precision | Recall  |
 |-------|--------|--------|--------|--------|-----------|---------|
 | Clear | 77.72 | 93.08 | 87.46 | 87.46 | 82.48 | 93.08 |
 | Cloud Shadow | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 |
@@ -49,7 +49,7 @@
 
 - MCDNet
 
-| Class | IoU    | Acc    | Dice   | Fscore | Precision | Recall  |
+| Class | IoU    | Acc    | Dice   | F1 | Precision | Recall  |
 |-------|--------|--------|--------|--------|-----------|---------|
 | Clear | 65.84 | 73.80 | 79.40 | 79.40 | 85.93 | 73.80 |
 | Cloud Shadow | 0.21 | 0.22 | 0.41 | 0.41 | 3.52 | 0.22 |
@@ -58,7 +58,7 @@
 
 - SCNN
 
-| Class | IoU    | Acc    | Dice   | Fscore | Precision | Recall  |
+| Class | IoU    | Acc    | Dice   | F1 | Precision | Recall  |
 |-------|--------|--------|--------|--------|-----------|---------|
 | Clear | 66.30 | 81.11 | 79.73 | 79.73 | 78.40 | 81.11 |
 | Cloud Shadow | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 |
@@ -67,7 +67,7 @@
 
 - UNetMobv2
 
-| Class | IoU    | Acc    | Dice   | Fscore | Precision | Recall  |
+| Class | IoU    | Acc    | Dice   | F1 | Precision | Recall  |
 |-------|--------|--------|--------|--------|-----------|---------|
 | Clear | 79.18 | 93.62 | 88.38 | 88.38 | 83.70 | 93.62 |
 | Cloud Shadow | 3.05 | 3.31 | 5.92 | 5.92 | 28.38 | 3.31 |
