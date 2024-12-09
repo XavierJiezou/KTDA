@@ -68,7 +68,7 @@ KTDA
 │   │   ├── img_dir
 │   │   │   ├── train
 │   │   │   ├── val
-│   ├── cloud (l8_biome)
+│   ├── l8_biome (cloud)
 │   │   ├── ann_dir
 │   │   │   ├── train
 │   │   │   ├── val
