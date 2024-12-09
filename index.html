@@ -169,9 +169,11 @@
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
-                <a href="https://scholar.google.com/citations?user=VIYETi4AAAAJ&hl=en" target="_blank">Shun Zhang</a><sup>1,*</sup>,</span>
+                <a href="https://scholar.google.com/citations?user=VIYETi4AAAAJ&hl=en" target="_blank">Shun
+                  Zhang</a><sup>1,*</sup>,</span>
               <span class="author-block">
-                <a href="https://scholar.google.com/citations?user=po1KXtwAAAAJ&hl=en" target="_blank">Xuechao Zou</a><sup>2,*</sup>,</span>
+                <a href="https://scholar.google.com/citations?user=po1KXtwAAAAJ&hl=en" target="_blank">Xuechao
+                  Zou</a><sup>2,*</sup>,</span>
               <span class="author-block">
                 <a href="https://cslikai.cn/" target="_blank">Kai Li</a><sup>3</sup>,</span>
               <span class="author-block">
@@ -188,11 +190,13 @@
             </div>
 
             <div class="is-size-5 publication-authors">
-              <span class="author-block"><sup>1</sup>Qinghai University, <sup>2</sup>Beijing Jiaotong University, <sup>3</sup>Tsinghua University
+              <span class="author-block"><sup>1</sup>Qinghai University, <sup>2</sup>Beijing Jiaotong University,
+                <sup>3</sup>Tsinghua University
               </span>
               <br>
               <span class="author-block"><br><strong>arXiv 2024</strong></span>
-              <span class="eql-cntrb"><small><br><sup>*</sup>Equal Contribution, <sup>†</sup>Corresponding Author</small></span>
+              <span class="eql-cntrb"><small><br><sup>*</sup>Equal Contribution, <sup>†</sup>Corresponding
+                  Author</small></span>
             </div>
 
 
@@ -368,6 +372,158 @@
       </div>
   </section> -->
 
+  <section class="hero is-light is-small">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths">
+            <h2 class="title is-3">Results</h2>
+            <table border="1" cellpadding="5" cellspacing="0" style="text-align: center;">
+              <caption>The performance comparison of different methods on our fine-grained grass segmentation dataset.
+              </caption>
+              <thead>
+                <tr>
+                  <th>Method</th>
+                  <th>mIoU ↑</th>
+                  <th>OA ↑</th>
+                  <th>F1 ↑</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>FCN</td>
+                  <td>47.47</td>
+                  <td>67.85</td>
+                  <td>61.99</td>
+                </tr>
+                <tr>
+                  <td>PSPNet</td>
+                  <td>47.95</td>
+                  <td>69.12</td>
+                  <td>62.55</td>
+                </tr>
+                <tr>
+                  <td>DeepLabV3+</td>
+                  <td>47.95</td>
+                  <td>68.97</td>
+                  <td>62.50</td>
+                </tr>
+                <tr>
+                  <td>UNet</td>
+                  <td>48.17</td>
+                  <td>69.77</td>
+                  <td>62.34</td>
+                </tr>
+                <tr>
+                  <td>SegFormer</td>
+                  <td>48.29</td>
+                  <td>68.93</td>
+                  <td>62.82</td>
+                </tr>
+                <tr>
+                  <td>Mask2Former</td>
+                  <td>44.93</td>
+                  <td>65.90</td>
+                  <td>58.91</td>
+                </tr>
+                <tr>
+                  <td>DINOv2</td>
+                  <td>47.57</td>
+                  <td>71.54</td>
+                  <td>61.70</td>
+                </tr>
+                <tr>
+                  <td><strong>Ours</strong></td>
+                  <td><strong>50.86</strong></td>
+                  <td><strong>74.26</strong></td>
+                  <td><strong>65.01</strong></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section class="hero is-light is-small">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths">
+            <h2 class="title is-3">Results</h2>
+            <table border="1" cellpadding="5" cellspacing="0" style="text-align: center;">
+              <caption>The performance comparison of different methods on the fine-grained cloud segmentation dataset.
+              </caption>
+              <thead>
+                <tr>
+                  <th>Method</th>
+                  <th>mIoU ↑</th>
+                  <th>OA ↑</th>
+                  <th>F1 ↑</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>MCDNet</td>
+                  <td>33.85</td>
+                  <td>69.75</td>
+                  <td>42.76</td>
+                </tr>
+                <tr>
+                  <td>SCNN</td>
+                  <td>32.38</td>
+                  <td>71.22</td>
+                  <td>52.41</td>
+                </tr>
+                <tr>
+                  <td>CDNetv1</td>
+                  <td>34.58</td>
+                  <td>68.16</td>
+                  <td>45.80</td>
+                </tr>
+                <tr>
+                  <td>KappaMask</td>
+                  <td>42.12</td>
+                  <td>76.63</td>
+                  <td>68.47</td>
+                </tr>
+                <tr>
+                  <td>UNetMobv2</td>
+                  <td>47.76</td>
+                  <td>82.00</td>
+                  <td>56.91</td>
+                </tr>
+                <tr>
+                  <td>CDNetv2</td>
+                  <td>43.63</td>
+                  <td>78.56</td>
+                  <td>70.33</td>
+                </tr>
+                <tr>
+                  <td>HRCloudNet</td>
+                  <td>43.51</td>
+                  <td>77.04</td>
+                  <td>71.36</td>
+                </tr>
+                <tr>
+                  <td><strong>Ours</strong></td>
+                  <td><strong>51.49</strong></td>
+                  <td><strong>83.55</strong></td>
+                  <td><strong>60.08</strong></td>
+                </tr>
+              </tbody>
+            </table>
+
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
 
 
   <!-- Paper abstract -->
@@ -378,9 +534,20 @@
           <h2 class="title is-3">Abstract</h2>
           <div class="content has-text-justified">
             <p>
-              Fine-grained remote sensing image segmentation is essential for accurately identifying detailed objects in remote sensing images. Recently, vision transformer models (VTM) pretrained on large-scale datasets have shown strong zero-shot generalization, indicating that they have learned the general knowledge of object understanding. This paper introduces a new framework combining knowledge transfer and domain adaptation to improve segmentation. We present two key components: the Feature Alignment Module (FAM) and the Feature Modulation Module (FMM). FAM aligns features from a CNN-based backbone with those from the pretrained VTM's encoder using channel transformation and spatial interpolation, and transfers knowledge via KL divergence and L2 normalization constraint. FMM further adapts the knowledge to the specific domain to address domain shift. We also introduce the first fine-grained grass segmentation dataset and show through experiments on three datasets (including ours) that our method significantly improves accuracy. The results highlight the potential of combining knowledge transfer and domain adaptation to overcome domain-related challenges and data limitations. The code and checkpoints are available at <a
-              href="https://github.com/XavierJiezou/KTDA" style="color: blue;"><span class="icon"><i
-                  class="fab fa-github"></i></span>GitHub</a>.
+              Fine-grained remote sensing image segmentation is essential for accurately identifying detailed objects in
+              remote sensing images. Recently, vision transformer models (VTM) pretrained on large-scale datasets have
+              shown strong zero-shot generalization, indicating that they have learned the general knowledge of object
+              understanding. This paper introduces a new framework combining knowledge transfer and domain adaptation to
+              improve segmentation. We present two key components: the Feature Alignment Module (FAM) and the Feature
+              Modulation Module (FMM). FAM aligns features from a CNN-based backbone with those from the pretrained
+              VTM's encoder using channel transformation and spatial interpolation, and transfers knowledge via KL
+              divergence and L2 normalization constraint. FMM further adapts the knowledge to the specific domain to
+              address domain shift. We also introduce the first fine-grained grass segmentation dataset and show through
+              experiments on three datasets (including ours) that our method significantly improves accuracy. The
+              results highlight the potential of combining knowledge transfer and domain adaptation to overcome
+              domain-related challenges and data limitations. The code and checkpoints are available at <a
+                href="https://github.com/XavierJiezou/KTDA" style="color: blue;"><span class="icon"><i
+                    class="fab fa-github"></i></span>GitHub</a>.
             </p>
           </div>
         </div>
@@ -410,7 +577,13 @@
               <table align=center>
                 <tr>
                   <td>
-                    <strong>Framework:</strong> Overview of the proposed framework that integrates knowledge transfer and domain adaptation for fine-grained remote sensing image segmentation. Knowledge transfer is achieved through a feature alignment module and three loss constraints (KL divergence loss \( \mathcal{L}_{\text{kl}}\) , L2 normalization loss \( \mathcal{L}_{\text{mse}}\), and auxiliary loss \( \mathcal{L}_{\text{aux}}\)). Domain generalization is facilitated by a feature modulation module and supervised with cross-entropy loss \( \mathcal{L}_{\text{ce}}\). In summary, we propose a novel end-to-end learning paradigm combining knowledge guidance with domain refinement.
+                    <strong>Framework:</strong> Overview of the proposed framework that integrates knowledge transfer
+                    and domain adaptation for fine-grained remote sensing image segmentation. Knowledge transfer is
+                    achieved through a feature alignment module and three loss constraints (KL divergence loss \(
+                    \mathcal{L}_{\text{kl}}\) , L2 normalization loss \( \mathcal{L}_{\text{mse}}\), and auxiliary loss
+                    \( \mathcal{L}_{\text{aux}}\)). Domain generalization is facilitated by a feature modulation module
+                    and supervised with cross-entropy loss \( \mathcal{L}_{\text{ce}}\). In summary, we propose a novel
+                    end-to-end learning paradigm combining knowledge guidance with domain refinement.
                   </td>
                 </tr>
               </table>
@@ -874,14 +1047,14 @@
     window.addEventListener('resize', myChart.resize);
 
     $(document).ready(function () {
-        $('#example').DataTable({
-            paging: false, // 是否启用分页
-            searching: false, // 是否启用搜索框
-            order: [], // 初始排序为空
-            columnDefs: [
-                { targets: [1, 2, 3, 4, 5, 6], orderable: true } // 启用指定列排序
-            ]
-        });
+      $('#example').DataTable({
+        paging: false, // 是否启用分页
+        searching: false, // 是否启用搜索框
+        order: [], // 初始排序为空
+        columnDefs: [
+          { targets: [1, 2, 3, 4, 5, 6], orderable: true } // 启用指定列排序
+        ]
+      });
     });
   </script>
 </body>
