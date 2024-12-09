@@ -45,7 +45,7 @@ We provide a pre-configured environment (`envs`) hosted on Hugging Face. You can
 
 ## Prepare Data  
 
-We have open-sourced all datasets used in the paper, which are hosted on [Hugging Face Datasets](KTDA). Please follow the instructions on the dataset page to download the data.  
+We have open-sourced all datasets used in the paper, which are hosted on [Hugging Face Datasets](https://huggingface.co/datasets/XavierJiezou/ktda-datasets). Please follow the instructions on the dataset page to download the data.  
 
 After downloading, organize the dataset as follows:  
 
