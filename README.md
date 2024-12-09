@@ -23,8 +23,8 @@ Knowledge Transfer and Domain Adaptation for Fine-Grained Remote Sensing Image S
 1. Clone the Repository  
 
 ```bash  
-git clone https://github.com/XavierJiezou/KTDA.git
-cd KTDA
+git clone https://github.com/XavierJiezou/Cloud-Adapter.git
+cd Cloud-Adapter  
 ```  
 
 2. Install Dependencies  
@@ -38,6 +38,10 @@ Ensure you are using Python 3.8 or higher, then install the required dependencie
 ```bash  
 pip install -r requirements.txt  
 ```  
+
+- Option 2: Use Pre-configured Environment  
+
+We provide a pre-configured environment (`envs`) hosted on Hugging Face. You can download it directly from [Hugging Face](https://huggingface.co/XavierJiezou/ktda-models/blob/main/env.tar.gz). Follow the instructions on the page to set up and activate the environment. 
 
 ## Prepare Data  
 
