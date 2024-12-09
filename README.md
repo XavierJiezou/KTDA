@@ -90,7 +90,7 @@ model = dict(
 
 Update the `configs` directory with your training configuration, or use one of the provided example configurations. You can customize the backbone, dataset paths, and hyperparameters in the configuration file (e.g., `configs/ktda/ktda_cloud.py`).  
 
-### Step 3: Start Training  
+### Step 2: Start Training  
 
 Use the following command to begin training on grass dataset:  
 
@@ -104,7 +104,7 @@ and you can also train on cloud dataset:
 CUDA_VISIBLE_DEVICES=0 python tools/train.py configs/ktda/ktda_cloud.py
 ``` 
 
-### Step 4: Resume or Fine-tune  
+### Step 3: Resume or Fine-tune  
 
 To resume training from a checkpoint or fine-tune using pretrained weights, run:  
 
