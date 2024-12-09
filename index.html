@@ -547,7 +547,7 @@
                 <tr>
                   <td width=850px>
                     <center>
-                      <img class="round" style="width:850px" src="static/images/framework.svg" />
+                      <img class="round" style="width:850px" src="static/images/framework.png" />
                     </center>
                   </td>
                 </tr>
@@ -558,9 +558,9 @@
                     <strong>Framework:</strong> Overview of the proposed framework that integrates knowledge transfer
                     and domain adaptation for fine-grained remote sensing image segmentation. Knowledge transfer is
                     achieved through a feature alignment module and three loss constraints (KL divergence loss \(
-                    \mathcal{L}_{\text{kl}}\) , L2 normalization loss \( \mathcal{L}_{\text{mse}}\), and auxiliary loss
-                    \( \mathcal{L}_{\text{aux}}\)). Domain generalization is facilitated by a feature modulation module
-                    and supervised with cross-entropy loss \( \mathcal{L}_{\text{ce}}\). In summary, we propose a novel
+                    \mathcal{L}_{\text{kl}}\) and L2 normalization loss \( \mathcal{L}_{\text{mse}}\)). Domain generalization is facilitated by a feature modulation module
+                    and supervised with cross-entropy loss \( \mathcal{L}_{\text{ce}}\) and and auxiliary loss
+                    \( \mathcal{L}_{\text{aux}}\). In summary, we propose a novel
                     end-to-end learning paradigm combining knowledge guidance with domain refinement.
                   </td>
                 </tr>
@@ -628,7 +628,7 @@
         <div class="columns is-centered has-text-centered">
           <div class="column is-four-fifths">
             <h2 class="title is-3">Results</h2>
-            <h3 class="title is-4">Visualization on the Grass Datasets.</h3>
+            <h3 class="title is-4">Visualization on the Grass Dataset.</h3>
             <div class="image-container" style="margin: 20px 0;">
               <img src="static/images/grass.svg" alt="Grass Dataset Visualization" style="max-width: 100%; height: auto;">
             </div>
@@ -657,6 +657,33 @@
                 </div>
               </div>
             </div>
+            
+            <h3 class="title is-4">Visualization on the Cloud Dataset.</h3>
+            <div class="image-container" style="margin: 20px 0;">
+              <img src="static/images/cloud.svg" alt="Cloud Dataset Visualization" style="max-width: 100%; height: auto;">
+            </div>
+
+            <div class="legend-container">
+              <div class="legend-items">
+                <div class="legend-item">
+                  <div class="legend-color cloud-clear"></div>
+                  <span>Clear Sky</span>
+                </div>
+                <div class="legend-item">
+                  <div class="legend-color cloud-thick"></div>
+                  <span>Thick Cloud</span>
+                </div>
+                <div class="legend-item">
+                  <div class="legend-color cloud-thin"></div>
+                  <span>Thin Cloud</span>
+                </div>
+                <div class="legend-item">
+                  <div class="legend-color cloud-shadow"></div>
+                  <span>Cloud Shadow</span>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
@@ -665,12 +692,12 @@
   </section>
 
 
-  <section class="hero is-light is-small">
+  <!-- <section class="hero is-light is-small">
     <div class="hero-body">
       <div class="container is-max-desktop">
         <div class="columns is-centered has-text-centered">
           <div class="column is-four-fifths">
-            <h3 class="title is-4">Visualization on the Cloud Datasets.</h3>
+            <h3 class="title is-4">Visualization on the Cloud Dataset.</h3>
             <div class="image-container" style="margin: 20px 0;">
               <img src="static/images/cloud.svg" alt="Cloud Dataset Visualization" style="max-width: 100%; height: auto;">
             </div>
@@ -700,13 +727,13 @@
       </div>
     </div>
     </div>
-  </section>
+  </section> -->
 
 
   <section class="hero is-light is-small">
     <div class="hero-body">
       <div class="container is-max-desktop">
-        <h3 class="title is-4 is-centered has-text-centered">Quantitative Comparison (mIoU, ,OA,F1,%) with the Existing
+        <h3 class="title is-4 is-centered has-text-centered">Quantitative Comparison with the Existing
           Methods.</h3>
         <div class="columns is-centered has-text-centered">
 
@@ -775,7 +802,7 @@
           </table>
 
 
-          <table border="1" cellpadding="5" cellspacing="0" style="text-align: center;width: 100%;" class="tg">
+          <table border="1" cellpadding="5" cellspacing="0" style="text-align: center;width: 100%;margin-left: 10px;" class="tg">
             <caption class="table-caption">The performance comparison of different methods on the fine-grained cloud
               segmentation dataset.
             </caption>
