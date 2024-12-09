@@ -23,8 +23,8 @@ Knowledge Transfer and Domain Adaptation for Fine-Grained Remote Sensing Image S
 1. Clone the Repository  
 
 ```bash  
-git clone https://github.com/XavierJiezou/Cloud-Adapter.git
-cd Cloud-Adapter  
+git clone https://github.com/XavierJiezou/KTDA.git
+cd KTDA
 ```  
 
 2. Install Dependencies  
