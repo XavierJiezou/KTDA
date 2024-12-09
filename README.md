@@ -136,6 +136,13 @@ python tools/test.py configs/ktda/ktda_grass.py path/to/checkpoint.pth
 
 Alternatively, you can find the evaluation results in the [eval_result](eval_result) folder within this repository.
 
+## Visualization
+
+We have uploaded the visualization results of various models on the Grass and Cloud datasets to Hugging Face. You can view them at the following link:
+
+[Hugging Face Visualization Results](https://huggingface.co/XavierJiezou/ktda-models/tree/main/visualization)
+
+
 ## Citation
 
 If you use our code or models in your research, please cite with:
