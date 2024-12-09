@@ -46,7 +46,7 @@ We have open-sourced all datasets used in the paper, which are hosted on [Huggin
 After downloading, organize the dataset as follows:  
 
 ```  
-Cloud-Adapter
+KTDA
 ├── ...
 ├── data
 │   ├── grass
