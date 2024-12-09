@@ -69,15 +69,9 @@ Cloud-Adapter
 
 ## Training
 
-### Step 1: Download and Convert Weights
+### Step 1: Modify the Configuration File
 
-1. Download pretrained weights of vision foundation models
-
-You can download the pretrained weights from the [hugging face](https://huggingface.co/XavierJiezou/ktda-models). 
-
-### Step 2: Modify the Configuration File
-
-After downloading the backbone network weights, make sure to correctly specify the path to the configuration file within your config settings.
+After downloading the backbone network weights from [Hugging Face](https://huggingface.co/XavierJiezou/ktda-models), make sure to correctly specify the path to the configuration file within your config settings.
 
 For example: 
 
