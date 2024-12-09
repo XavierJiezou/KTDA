@@ -107,6 +107,60 @@
   }
 
   /* latex table */
+
+
+  /* 表格基本样式 */
+  .tg {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    max-width: 100%;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  /* 表格单元格样式 */
+  .tg td,
+  .tg th {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+  }
+
+  /* 表头样式 */
+  .tg th {
+    background-color: #f8f9fa;
+    color: #333;
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  /* 奇数行背景色 */
+  .tg tr:nth-child(odd) {
+    background-color: #f1f1f1;
+  }
+
+  /* 鼠标悬停效果 */
+  .tg tr:hover {
+    background-color: #e0e0e0;
+  }
+
+  /* 特殊单元格样式 */
+  .tg .tg-c3ow {
+    border-color: inherit;
+    text-align: center;
+    vertical-align: top;
+  }
+
+  .tg .tg-7btt {
+    border-color: inherit;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: top;
+  }
 </style>
 <html>
 
@@ -448,69 +502,69 @@
   <section class="hero is-light is-small">
     <div class="hero-body">
       <div class="container is-max-desktop">
-        <h3 class="title is-4 is-centered has-text-centered">Quantitative Comparison (mIoU, %, ↑) with the Existing
+        <h3 class="title is-4 is-centered has-text-centered">Quantitative Comparison (mIoU, ,OA,F1,%) with the Existing
           Methods.</h3>
         <div class="columns is-centered has-text-centered">
 
-          <table border="1" cellpadding="5" cellspacing="0" style="text-align: center;width: 100%;">
+          <table border="1" cellpadding="5" cellspacing="0" style="text-align: center;width: 100%;" class="tg">
             <caption>The performance comparison of different methods on our fine-grained grass segmentation dataset.
             </caption>
             <thead>
               <tr>
-                <th>Method</th>
-                <th>mIoU ↑</th>
-                <th>OA ↑</th>
-                <th>F1 ↑</th>
+                <th class="tg-7btt">Method</th>
+                <th class="tg-7btt">mIoU ↑</th>
+                <th class="tg-7btt">OA ↑</th>
+                <th class="tg-7btt">F1 ↑</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td>FCN</td>
-                <td>47.47</td>
-                <td>67.85</td>
-                <td>61.99</td>
+                <td class="tg-c3ow">FCN</td>
+                <td class="tg-c3ow">47.47</td>
+                <td class="tg-c3ow">67.85</td>
+                <td class="tg-c3ow">61.99</td>
               </tr>
               <tr>
-                <td>PSPNet</td>
-                <td>47.95</td>
-                <td>69.12</td>
-                <td>62.55</td>
+                <td class="tg-c3ow">PSPNet</td>
+                <td class="tg-c3ow">47.95</td>
+                <td class="tg-c3ow">69.12</td>
+                <td class="tg-c3ow">62.55</td>
               </tr>
               <tr>
-                <td>DeepLabV3+</td>
-                <td>47.95</td>
-                <td>68.97</td>
+                <td class="tg-c3ow">DeepLabV3+</td>
+                <td class="tg-c3ow">47.95</td>
+                <td class="tg-c3ow">68.97</td>
                 <td>62.50</td>
               </tr>
               <tr>
-                <td>UNet</td>
-                <td>48.17</td>
-                <td>69.77</td>
-                <td>62.34</td>
+                <td class="tg-c3ow">UNet</td>
+                <td class="tg-c3ow">48.17</td>
+                <td class="tg-c3ow">69.77</td>
+                <td class="tg-c3ow">62.34</td>
               </tr>
               <tr>
-                <td>SegFormer</td>
-                <td>48.29</td>
-                <td>68.93</td>
-                <td>62.82</td>
+                <td class="tg-c3ow">SegFormer</td>
+                <td class="tg-c3ow">48.29</td>
+                <td class="tg-c3ow">68.93</td>
+                <td class="tg-c3ow">62.82</td>
               </tr>
               <tr>
-                <td>Mask2Former</td>
-                <td>44.93</td>
-                <td>65.90</td>
-                <td>58.91</td>
+                <td class="tg-c3ow">Mask2Former</td>
+                <td class="tg-c3ow">44.93</td>
+                <td class="tg-c3ow">65.90</td>
+                <td class="tg-c3ow">58.91</td>
               </tr>
               <tr>
-                <td>DINOv2</td>
-                <td>47.57</td>
-                <td>71.54</td>
-                <td>61.70</td>
+                <td class="tg-c3ow">DINOv2</td>
+                <td class="tg-c3ow">47.57</td>
+                <td class="tg-c3ow">71.54</td>
+                <td class="tg-c3ow">61.70</td>
               </tr>
               <tr>
-                <td><strong>Ours</strong></td>
-                <td><strong>50.86</strong></td>
-                <td><strong>74.26</strong></td>
-                <td><strong>65.01</strong></td>
+                <t class="tg-c3ow"><strong>KTDA</strong></td>
+                <td class="tg-c3ow"><strong>50.86</strong></td>
+                <td class="tg-c3ow"><strong>74.26</strong></td>
+                <td class="tg-c3ow"><strong>65.01</strong></td>
               </tr>
             </tbody>
           </table>
@@ -626,145 +680,7 @@
 
   <!-- End of Statcounter Code -->
   <script type="text/javascript">
-    let index;
-    var dom = document.getElementById('radar');
-    var myChart = echarts.init(dom, null, {
-      renderer: 'canvas',
-      useDirtyRect: false
-    });
-    var app = {};
 
-    var option;
-
-    option = {
-      // title: {
-      //   text: '模型性能雷达图',
-      //   left: 'center'
-      // },
-      legend: {
-        orient: 'horizontal', // 水平排列
-        left: 'center',       // 水平居中
-        bottom: -5, // 将图例放在下方
-        data: [
-          'Cloud-Adapter',
-          'SCNN',
-          'CDNetv1',
-          'CDNetv2',
-          'MCDNet',
-          'UNetMobv2',
-          'DBNet',
-          'HRCloudNet',
-          'KappaMask'
-        ]
-      },
-      tooltip: {
-        trigger: 'item', // 触发类型为 item
-        formatter: function (params) {
-          // 提取方法名称和 mIoU 数值
-          const method = params.name; // 方法名称
-          if (index != undefined) {
-            var miou = params.value[index]; // 获取当前维度上的数据值
-          }
-
-          // 返回自定义格式
-          console.log(params);
-          return `${method} (mIoU: ${miou}%)`;
-        }
-      },
-      radar: {
-        indicator: [
-          { name: '{b|HRC}', max: 100 },
-          { name: '{b|GF1}', max: 100 },
-          { name: '{b|GF2}', max: 100 },
-          { name: '{b|L1C}', max: 100 },
-          { name: '{b|L2A}', max: 100 },
-          { name: '{b|L8B}', max: 100 }
-        ],
-        name: {
-          rich: {
-            b: {
-              fontWeight: 'bold',
-              fontSize: 14,
-              color: 'black'
-            }
-          }
-        }
-      },
-      series: [
-        {
-          name: '模型性能对比',
-          type: 'radar',
-          data: [
-            {
-              value: [89.05, 92.55, 83.02, 74.18, 73.38, 57.53],
-              name: 'Cloud-Adapter'
-            },
-            {
-              value: [57.22, 81.68, 76.99, 22.75, 28.76, 32.38],
-              name: 'SCNN'
-            },
-            {
-              value: [77.79, 81.82, 78.2, 60.35, 62.39, 34.58],
-              name: 'CDNetv1'
-            },
-            {
-              value: [76.75, 84.93, 78.84, 65.6, 66.05, 43.63],
-              name: 'CDNetv2'
-            },
-            {
-              value: [53.5, 85.16, 78.36, 44.8, 46.52, 33.85],
-              name: 'MCDNet'
-            },
-            {
-              value: [79.91, 91.71, 80.44, 71.65, 70.36, 47.76],
-              name: 'UNetMobv2'
-            },
-            {
-              value: [77.78, 91.36, 78.68, 65.52, 65.65, 51.41],
-              name: 'DBNet'
-            },
-            {
-              value: [83.44, 91.86, 75.57, 68.26, 68.35, 43.51],
-              name: 'HRCloudNet'
-            },
-            {
-              value: [67.48, 92.42, 72.0, 41.27, 45.28, 42.12],
-              name: 'KappaMask'
-            }
-          ]
-        }
-      ]
-    };
-
-
-
-    if (option && typeof option === 'object') {
-      myChart.setOption(option);
-    }
-
-    // myChart.setOption(option);
-    // 添加鼠标悬停事件监听
-    myChart.on('mouseover', function (params) {
-      console.log('mouseover params', params);
-      // 判断事件类型是否为雷达图的数据项悬停
-      if (params.componentType === 'series' && params.seriesType === 'radar') {
-        var currentIndex = params.event.topTarget.__dimIdx;
-        index = currentIndex
-      }
-    });
-
-    window.addEventListener('resize', myChart.resize);
-
-    $(document).ready(function () {
-      $('#example').DataTable({
-        paging: false, // 是否启用分页
-        searching: false, // 是否启用搜索框
-        order: [], // 初始排序为空
-        columnDefs: [
-          { targets: [1, 2, 3, 4, 5, 6], orderable: true } // 启用指定列排序
-        ]
-      });
-    });
   </script>
 </body>
 
