@@ -4,6 +4,7 @@
 
 Knowledge Transfer and Domain Adaptation for Fine-Grained Remote Sensing Image Segmentation
 
+[![arXiv Paper](https://img.shields.io/badge/arXiv-2412.06664-B31B1B)](https://arxiv.org/abs/2412.06664)
 [![Project Page](https://img.shields.io/badge/Project%20Page-KTDA-blue)](https://xavierjiezou.github.io/KTDA/)
 [![HugginngFace Models](https://img.shields.io/badge/🤗HugginngFace-Models-orange)](https://huggingface.co/XavierJiezou/ktda-models)
 [![HugginngFace Datasets](https://img.shields.io/badge/🤗HugginngFace-Datasets-orange)](https://huggingface.co/datasets/XavierJiezou/ktda-datasets)
