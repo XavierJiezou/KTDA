@@ -151,8 +151,12 @@ If you use our code or models in your research, please cite with:
 ```latex
 @misc{ktda,
       title={Knowledge Transfer and Domain Adaptation for Fine-Grained Remote Sensing Image Segmentation}, 
-      author={Shun Zhang and Xuechao Zou and Shiying Wang and  Kai Li and Congyan Lang and Pin Tao},
+      author={Shun Zhang and Xuechao Zou and Kai Li and Congyan Lang and Shiying Wang and Pin Tao and Tengfei Cao},
       year={2024},
+      eprint={2412.06664},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2412.06664}, 
 }
 ```
 
