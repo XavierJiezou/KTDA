@@ -1,4 +1,5 @@
 from .segmentors import DistillEncoderDecoder
-from .adapter import FAM,FMM
+from .fam import FAM
+from .fmm import FMM
 
 __all__ = ["DistillEncoderDecoder", "FAM","FMM"]
