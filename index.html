@@ -515,18 +515,7 @@
           <h2 class="title is-3">Abstract</h2>
           <div class="content has-text-justified">
             <p>
-              Fine-grained remote sensing image segmentation is essential for accurately identifying detailed objects in
-              remote sensing images. Recently, vision transformer models (VTM) pretrained on large-scale datasets have
-              shown strong zero-shot generalization, indicating that they have learned the general knowledge of object
-              understanding. This paper introduces a new framework combining knowledge transfer and domain adaptation to
-              improve segmentation. We present two key components: the Feature Alignment Module (FAM) and the Feature
-              Modulation Module (FMM). FAM aligns features from a CNN-based backbone with those from the pretrained
-              VTM's encoder using channel transformation and spatial interpolation, and transfers knowledge via KL
-              divergence and L2 normalization constraint. FMM further adapts the knowledge to the specific domain to
-              address domain shift. We also introduce the first fine-grained grass segmentation dataset and show through
-              experiments on three datasets (including ours) that our method significantly improves accuracy. The
-              results highlight the potential of combining knowledge transfer and domain adaptation to overcome
-              domain-related challenges and data limitations. The code and checkpoints are available at <a
+              Fine-grained remote sensing image segmentation is essential for accurately identifying detailed objects in remote sensing images. Recently, vision transformer models (VTMs) pre-trained on large-scale datasets have demonstrated strong zero-shot generalization. However, directly applying them to specific tasks may lead to domain shift. We introduce a novel end-to-end learning paradigm combining knowledge guidance with domain refinement to enhance performance. We present two key components: the Feature Alignment Module (FAM) and the Feature Modulation Module (FMM). FAM aligns features from a CNN-based backbone with those from the pretrained VTM's encoder using channel transformation and spatial interpolation, and transfers knowledge via KL divergence and L2 normalization constraint. FMM further adapts the knowledge to the specific domain to address domain shift. We also introduce a fine-grained grass segmentation dataset and demonstrate, through experiments on two datasets, that our method achieves a significant improvement of 2.57 mIoU on the grass dataset and 3.73 mIoU on the cloud dataset. The results highlight the potential of combining knowledge transfer and domain adaptation to overcome domain-related challenges and data limitations. The code and checkpoints are available at <a
                 href="https://github.com/XavierJiezou/KTDA" style="color: blue;"><span class="icon"><i
                     class="fab fa-github"></i></span>GitHub</a>.
             </p>
