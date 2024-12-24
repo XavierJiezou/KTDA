@@ -6,7 +6,7 @@ import numpy as np
 from rich.progress import track
 from PIL import Image
 from typing import List
-from vegseg.datasets import WaterDataset
+from ktda.datasets import WaterDataset
 from sklearn.model_selection import train_test_split
 
 
