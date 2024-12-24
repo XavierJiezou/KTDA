@@ -4,7 +4,7 @@ import os
 from typing import Tuple, List
 from PIL import Image
 from rich.progress import track
-from vegseg.datasets import GrassDataset
+from ktda.datasets import GrassDataset
 
 
 def get_args() -> Tuple[str, str, int]:
