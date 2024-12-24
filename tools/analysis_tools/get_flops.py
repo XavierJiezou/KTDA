@@ -12,7 +12,7 @@ from mmengine.registry import init_default_scope
 from mmseg.models import BaseSegmentor
 from mmseg.registry import MODELS
 from mmseg.structures import SegDataSample
-from vegseg import models
+from ktda import models
 try:
     from mmengine.analysis import get_model_complexity_info
     from mmengine.analysis.print_helper import _format_size
