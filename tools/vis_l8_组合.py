@@ -3,7 +3,7 @@ from mmeval import MeanIoU
 from PIL import Image
 import numpy as np
 from typing import List
-from vegseg.datasets import L8BIOMEDataset
+from ktda.datasets import L8BIOMEDataset
 from matplotlib import pyplot as plt
 import os
 
