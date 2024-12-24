@@ -1,11 +1,11 @@
 from mmseg.apis import MMSegInferencer
 from glob import glob
-from vegseg.datasets import L8BIOMEDataset
+from ktda.datasets import L8BIOMEDataset
 import numpy as np
 from typing import List
 import os
 from PIL import Image
-from vegseg import models
+from ktda import models
 
 def get_palette() -> List[int]:
     """
