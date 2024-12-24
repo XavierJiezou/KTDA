@@ -7,7 +7,7 @@ import json
 import numpy as np
 from rich.progress import track
 import cv2
-from vegseg.datasets import GrassDataset
+from ktda.datasets import GrassDataset
 from sklearn.model_selection import train_test_split
 import argparse
 
