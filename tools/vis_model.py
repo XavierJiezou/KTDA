@@ -7,7 +7,7 @@ from mmeval import MeanIoU
 from PIL import Image
 from matplotlib import pyplot as plt
 from mmseg.apis import MMSegInferencer
-from vegseg.datasets import GrassDataset
+from ktda.datasets import GrassDataset
 
 
 def get_iou(pred: np.ndarray, gt: np.ndarray, num_classes=2):
