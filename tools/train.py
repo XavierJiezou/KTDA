@@ -3,7 +3,7 @@ import argparse
 import logging
 import os
 import os.path as osp
-from vegseg.datasets import GrassDataset
+from ktda.datasets import GrassDataset
 from mmengine.config import Config, DictAction
 from mmengine.logging import print_log
 from mmengine.runner import Runner
