@@ -1,12 +1,12 @@
 from mmseg.apis import init_model,inference_model
 from PIL import Image
-from vegseg.datasets import GrassDataset
+from ktda.datasets import GrassDataset
 import numpy as np
 from typing import Tuple, List
 from glob import glob
 import torch
 from mmeval import MeanIoU
-from vegseg.models import DistillEncoderDecoder
+from ktda.models import DistillEncoderDecoder
 
 def get_iou(pred: np.ndarray, gt: np.ndarray, num_classes=5):
     pred = pred[np.newaxis]
