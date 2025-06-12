@@ -1,6 +1,6 @@
 <div align="center">
 
-# [ICME 2025] KTDA
+# [ICME Oral 2025] KTDA
 
 Knowledge Transfer and Domain Adaptation for Fine-Grained Remote Sensing Image Segmentation
 
