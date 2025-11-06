@@ -151,15 +151,21 @@ We have uploaded the visualization results of various models on the Grass and Cl
 If you use our code or models in your research, please cite with:
 
 ```latex
-@misc{ktda,
-      title={Knowledge Transfer and Domain Adaptation for Fine-Grained Remote Sensing Image Segmentation}, 
-      author={Shun Zhang and Xuechao Zou and Kai Li and Congyan Lang and Shiying Wang and Pin Tao and Tengfei Cao},
-      year={2024},
-      eprint={2412.06664},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2412.06664}, 
+@INPROCEEDINGS {11209838,
+author = { Zhang, Shun and Zou, Xuechao and Li, Kai and Lang, Congyan and Wang, Shiying and Tao, Pin and Cao, Tengfei },
+booktitle = { 2025 IEEE International Conference on Multimedia and Expo (ICME) },
+title = {{ Knowledge Transfer and Domain Adaptation for Fine-Grained Remote Sensing Image Segmentation }},
+year = {2025},
+volume = {},
+ISSN = {},
+pages = {1-6},
+doi = {10.1109/ICME59968.2025.11209838},
+url = {https://doi.ieeecomputersociety.org/10.1109/ICME59968.2025.11209838},
+publisher = {IEEE Computer Society},
+address = {Los Alamitos, CA, USA},
+month =Jul
 }
+
 ```
 
 ## Acknowledgments
